@@ -39,9 +39,9 @@ public class Serveur {
         
         Thread th = new Thread(sTCP);
         th.start();
-        Thread thM = new Thread(sTCPM);
-        thM.start();
         Thread th2 = new Thread(sUDP);
         th2.start();
+        Thread thM = new Thread(sTCPM);
+        thM.start();
     }
 }

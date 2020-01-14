@@ -36,10 +36,8 @@ public class GestionDemandes extends GestionAbstraite {
                     System.out.println(tab[0]);
                     System.out.println(tab[1]);
                     System.out.println(tab[2]);
-                    //sortieSocket.println("GOOD");
                     chaine = "GOOD";
                 } else {
-                    //sortieSocket.println("BAD");
                     chaine = "BAD";
                 }
             }
@@ -49,10 +47,8 @@ public class GestionDemandes extends GestionAbstraite {
                     System.out.println(tab[0]);
                     System.out.println(tab[1]);
                     System.out.println(tab[2]);
-                    //sortieSocket.println("GOOD");
                     chaine = "DONE";
                 } else {
-                    //sortieSocket.println("BAD");
                     chaine = "ERROR";
                 }
             }
@@ -62,10 +58,8 @@ public class GestionDemandes extends GestionAbstraite {
                     System.out.println(tab[0]);
                     System.out.println(tab[1]);
                     System.out.println(tab[2]);
-                    //sortieSocket.println("GOOD");
                     chaine = "DONE";
                 } else {
-                    //sortieSocket.println("BAD");
                     chaine = "ERROR";
                 }
             }
@@ -75,10 +69,8 @@ public class GestionDemandes extends GestionAbstraite {
                     System.out.println(tab[0]);
                     System.out.println(tab[1]);
                     System.out.println(tab[2]);
-                    //sortieSocket.println("GOOD");
                     chaine = "DONE";
                 } else {
-                    //sortieSocket.println("BAD");
                     chaine = "ERROR";
                 }
             }

@@ -63,7 +63,7 @@ public class GestionRequeteUDP implements Runnable {
             byte[] octetsChaine;
             
             chaineReponse = gD.traitement(chaineEntree);
-            octetsChaine = chaineEntree.getBytes();
+            octetsChaine = chaineReponse.getBytes();
             dgram.setData(octetsChaine);
             
            

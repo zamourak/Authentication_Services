@@ -4,3 +4,8 @@
 {"host":"0.0.0.0/0.0.0.0","port":-1,"proto":"UDP","type":"CHK","login":"Toto","result":"GOOD","date":"Tue Jan 14 19:59:30 CET 2020"}
 {"host":"0.0.0.0/0.0.0.0","port":-1,"proto":"UDP","type":"CHK","login":"Toto","result":"GOOD","date":"Tue Jan 14 20:00:13 CET 2020"}
 {"host":"0.0.0.0/0.0.0.0","port":-1,"proto":"UDP","type":"CHK","login":"Toto","result":"GOOD","date":"Tue Jan 14 22:49:42 CET 2020"}
+{"host":"/127.0.0.1","port":54707,"proto":"TCP","type":"CHK","login":"Toto","result":"GOOD","date":"Tue Jan 14 23:10:12 CET 2020"}
+{"host":"/127.0.0.1","port":54709,"proto":"TCP","type":"CHK","login":"Toto","result":"GOOD","date":"Tue Jan 14 23:10:38 CET 2020"}
+{"host":"0.0.0.0/0.0.0.0","port":-1,"proto":"UDP","type":"CHK","login":"Titi","result":"GOOD","date":"Tue Jan 14 23:10:53 CET 2020"}
+{"host":"0.0.0.0/0.0.0.0","port":-1,"proto":"UDP","type":"CHK","login":"Toto","result":"GOOD","date":"Tue Jan 14 23:12:25 CET 2020"}
+{"host":"0.0.0.0/0.0.0.0","port":-1,"proto":"UDP","type":"CHK","login":"Toto","result":"GOOD","date":"Tue Jan 14 23:19:47 CET 2020"}

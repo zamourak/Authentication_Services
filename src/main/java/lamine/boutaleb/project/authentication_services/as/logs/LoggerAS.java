@@ -24,7 +24,8 @@ public class LoggerAS {
 /**
  *
  * Méthode de travail permettant de choisir le fichier Json sur lequel le logger journalisera,
- * ainsi qu'initialiser le ServeurTCP sur lequel il va tourner.
+ * ainsi qu'initialiser le ServeurTCP sur lequel il va tourner. Le fichier Json à choisir se trouve
+ * dans le répertoire Athentification Services/src/main/resources
  */
     public void travailler(){
         
