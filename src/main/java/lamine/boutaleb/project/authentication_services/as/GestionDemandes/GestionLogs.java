@@ -27,7 +27,10 @@ public class GestionLogs extends GestionAbstraite {
     public GestionLogs(String path){
         this.path = path;
     }
-    
+/**
+ *
+ * Traitement d'une demande de journalisation.
+ */    
     public String traitement(String chaine) {
         try {
             Files.write(Paths.get(path), chaine.concat(System.getProperty("line.separator")).getBytes(), StandardOpenOption.APPEND);

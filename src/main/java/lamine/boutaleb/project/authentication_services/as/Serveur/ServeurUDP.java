@@ -17,7 +17,10 @@ public class ServeurUDP implements Runnable {
     private int port;
     private GestionAbstraite gD;
     private GestionRequeteUDP gRudp;
-    
+/**
+ *
+ * Constructeur du ServeurUDP.
+ */    
     public ServeurUDP(int port, GestionAbstraite gD, GestionRequeteUDP gRudp){
         this.port = port;
         this.gD = gD;
@@ -33,7 +36,10 @@ public class ServeurUDP implements Runnable {
         ServeurUDP sUDP = new ServeurUDP(port, gD, gRudp);
         sUDP.travailler();
     }
-
+/**
+ *
+ * Méthode de travail permettant d'initialiser le ServeurUDP.
+ */    
     public void travailler(){
         // Création d'un socket UDP sur le port 40000
         DatagramSocket socket;

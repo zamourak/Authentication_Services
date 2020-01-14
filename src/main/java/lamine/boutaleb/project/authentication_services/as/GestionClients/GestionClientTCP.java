@@ -31,7 +31,10 @@ public class GestionClientTCP implements Runnable{
         this.gD = gD;
     }
     
-    
+/**
+ *
+ * Méthode de travail servant à gérer un client TCP.
+ */        
     public void travail() {
 
         // Construction d'un BufferedReader pour lire du texte envoyé à travers la connexion socket

@@ -21,7 +21,11 @@ public class LoggerAS {
         LoggerAS loggerAS = new LoggerAS();
         loggerAS.travailler();
     }
-
+/**
+ *
+ * Méthode de travail permettant de choisir le fichier Json sur lequel le logger journalisera,
+ * ainsi qu'initialiser le ServeurTCP sur lequel il va tourner.
+ */
     public void travailler(){
         
         //Le port sur lequel le serveur TCP qui gère les log va écouter

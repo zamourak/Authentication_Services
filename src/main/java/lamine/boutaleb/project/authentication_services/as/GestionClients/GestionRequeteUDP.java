@@ -51,7 +51,10 @@ public class GestionRequeteUDP implements Runnable {
     public GestionRequeteUDP(GestionAbstraite gD){
         this.gD = gD;
     }
-    
+/**
+ *
+ * Méthode de travail servant à gérer une requête UDP envoyées pas le ServeurUDP.
+ */    
     public void travail(){
             // extraction des données
             String chaineEntree = new String(dgram.getData(), 0, dgram.getLength());

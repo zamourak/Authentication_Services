@@ -21,7 +21,10 @@ public class GestionDemandes extends GestionAbstraite {
         this.la = la;
         this.manager = manager;
     }
-
+/**
+ *
+ * Traitement de la chaine envoyée par le client, réalise le côté metier de l'application.
+ */    
     public String traitement(String chaine) {
         // si elle est nulle c'est que le client a fermé la connexion
         if (chaine != null) {

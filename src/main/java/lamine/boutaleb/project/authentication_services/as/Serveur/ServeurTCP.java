@@ -17,7 +17,10 @@ public class ServeurTCP implements Runnable {
 
     private int port;
     private GestionAbstraite gD;
-
+/**
+ *
+ * Constructeur du ServeurTCP.
+ */
     public ServeurTCP(int port, GestionAbstraite gD) {
         this.port = port;
         this.gD = gD;
@@ -31,7 +34,10 @@ public class ServeurTCP implements Runnable {
         sTCP.travail();
 
     }
-
+/**
+ *
+ * Méthode de travail permettant d'initialiser le ServeurTCP.
+ */
     public void travail() {
         ServerSocket ssg;
         try {
