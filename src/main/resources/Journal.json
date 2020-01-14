@@ -1,0 +1,5 @@
+{"host":"0.0.0.0/0.0.0.0","port":-1,"proto":"UDP","type":"CHK","login":"Toto","result":"GOOD","date":"Tue Jan 14 19:46:57 CET 2020"}
+{"host":"0.0.0.0/0.0.0.0","port":-1,"proto":"UDP","type":"CHK","login":"Titi","result":"GOOD","date":"Tue Jan 14 19:47:17 CET 2020"}
+{"host":"/127.0.0.1","port":54073,"proto":"TCP","type":"CHK","login":"Toto","result":"GOOD","date":"Tue Jan 14 19:52:30 CET 2020"}
+{"host":"0.0.0.0/0.0.0.0","port":-1,"proto":"UDP","type":"CHK","login":"Toto","result":"GOOD","date":"Tue Jan 14 19:59:30 CET 2020"}
+{"host":"0.0.0.0/0.0.0.0","port":-1,"proto":"UDP","type":"CHK","login":"Toto","result":"GOOD","date":"Tue Jan 14 20:00:13 CET 2020"}
